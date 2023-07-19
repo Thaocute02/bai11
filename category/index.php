@@ -30,7 +30,6 @@
                 foreach($category as $value): ?>
             <tr>
                 <td><?= $stt++; ?></td>
-                <td><?= $value['id'];?></td>
                 <td><?= $value['name'];?></td>
                 <td>
                     <form id="delete_<?= $value['id'] ?>" action="delete.php" method="POST" style="display:flex">
