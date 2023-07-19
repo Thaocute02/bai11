@@ -3,5 +3,5 @@
     $cate = new Category();
     $data = ['name' => $_POST['name']];
     $cate->createNewData($data);
-    header("Location: http://localhost/learn_php/BTVN11/category/index.php");
+    header("Location: http://localhost:8080/bai11/category/index.php");
 ?>
