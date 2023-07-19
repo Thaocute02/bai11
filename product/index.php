@@ -35,7 +35,6 @@
             ?>
             <tr>
                 <td><?= $stt++; ?></td>
-                <td><?= $value['prodId'] ?></td>
                 <td><?= $value['prodName'] ?></td>
                 <td><?= $value['prodPrice'] ?></td>
                 <td><?= $value['name'] ?> </td>
