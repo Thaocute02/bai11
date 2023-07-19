@@ -8,5 +8,5 @@
         'name' => $name
     ];
     $cate->updateData($data);
-    header("Location: http://localhost/learn_php/BTVN11/category/index.php");
+    header("Location: http://localhost:8080/bai11/category/index.php");
 ?>
