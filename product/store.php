@@ -8,5 +8,5 @@
         'id' => $_GET['id']
     ];
     $product->updateProdData($data);
-    header("Location: http://localhost/learn_php/BTVN11/product/index.php");
+    header("Location: http://localhost:8080/bai11/product/index.php");
 ?>
